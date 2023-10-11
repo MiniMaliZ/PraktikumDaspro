@@ -18,8 +18,12 @@ public class Segitiga27 {
         if (totalSudut == 180){
             if ((sudut1 == 90) || (sudut2 == 90) || (sudut3 == 90)){
                 System.out.println("Segitiga tersebut adalah Segitiga siku-siku");
+            } else if ((sudut1 == 60) && (sudut2 == 60) && (sudut3 == 60)){
+                System.out.println("Segitiga tersebut adalah Segitiga Sama Sisi");
+            } else if ((sudut1 == sudut2) || (sudut1 == sudut3) || (sudut2 == sudut3)){
+                System.out.println("Segitiga tersebut adalah Segitiga Sama Kaki");
             } else {
-                System.out.println("Segitiga tersebut bukan Segitiga siku-siku");
+                System.out.println("Segitiga tersebut adalah Segitiga Sembarang");
             }
         } else {
             System.out.println("Bukan Segitiga");
