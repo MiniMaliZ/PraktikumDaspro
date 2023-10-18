@@ -11,7 +11,7 @@ public class DoWhileCuti {
 
         do {
             System.out.print("Apakah anda ingin mengambil cuti (y/t)? : ");
-            konfirmasi = sc.nextLine();
+            konfirmasi = sc.next();
 
             if (konfirmasi.equalsIgnoreCase("y")) {
                 System.out.print("Jumlah Hari : ");
