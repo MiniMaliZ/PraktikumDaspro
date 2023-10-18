@@ -1,21 +1,23 @@
 import java.util.Scanner;
-public class ForKelipatan27 {
+public class WhileKelipatan27 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         double rataRata;
-        int bilangan, counter, total;
+        int bilangan, counter, total, i;
         total = 0;
         counter = 0;
+        i = 0;
 
         System.out.print("Masukkan bilangan 1-9 : ");
         bilangan =  sc.nextInt();
 
-        for (int i = 0; i < 50; ++i) {
+        while (i < 50) {
             if (i % bilangan == 0) {
                 total += i;
                 ++counter;
             }
+            i++;
         }
 
         rataRata = (double) total / counter;
