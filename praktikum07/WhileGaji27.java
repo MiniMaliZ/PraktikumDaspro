@@ -28,6 +28,7 @@ public class WhileGaji27 {
             } else {
                 System.out.println("Jabatan Invalid");
                 i--;
+                continue;
             }
 
             totalGajiLembur += gajiLembur;

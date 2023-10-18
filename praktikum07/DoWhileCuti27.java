@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class DoWhileCuti {
+public class DoWhileCuti27 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -22,7 +22,6 @@ public class DoWhileCuti {
                     System.out.println("Sisa jatah cuti : " + jatahCuti);
                 } else {
                     System.out.println("Sisa jatah cuti anda tidak mencukupi");
-                    break;
                 }
             }
         } while (jatahCuti > 0);
