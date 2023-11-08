@@ -36,5 +36,6 @@ public class ArrayNilai27 {
         System.out.println("Jumlah Lulus : " + jumlahLulus);
         System.out.println("Jumlah Tidak Lulus : " + jumlahTidakLulus);
 
+        sc.close();
     }
 }

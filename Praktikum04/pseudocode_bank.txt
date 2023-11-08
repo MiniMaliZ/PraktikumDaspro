@@ -1,0 +1,17 @@
+Algoritma Bank
+
+Deklarasi : 
+tabunganAwal, tabunganAkhir, bunga, persentaseBunga : double
+lamaMenabung : int
+
+persentaseBunga : 2%
+
+Deskripsi :
+1. print "Masukkan Jumlah Tabungan Awal: "
+2. read tabunganAwal
+3. print "Masukkan Lama Menabung: "
+4. read lamaMenabung
+5. bunga = persentaseBunga * lamaMenabung * tabunganAwal
+6. tabunganAkhir = tabunganAwal * bunga
+7. print "Bunga: " + bunga
+8. print "Tabungan Akhir: " + tabunganAkhir

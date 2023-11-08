@@ -29,5 +29,6 @@ public class LinearSearch {
             System.out.println("Key tidak ditemukan");
         }
 
+        sc.close();
     }
 }

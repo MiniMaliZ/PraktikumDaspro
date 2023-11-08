@@ -28,11 +28,24 @@ public class Loop {
         //     }
         // }
 
-        int jumlah = 0;
+        // int jumlah = 0;
 
-        for (int i = 25; i >=1 ; i--) {
-            jumlah = jumlah + i;
+        // for (int i = 25; i >=1 ; i--) {
+        //     jumlah = jumlah + i;
+        // }
+        // System.out.println(jumlah);
+
+        int deretBilangan = 0;
+
+        while (deretBilangan <= 50) {
+
+            deretBilangan++;
+
+            if(deretBilangan % 3 == 0){
+                continue;
+            }
+
+            System.out.println(deretBilangan);
         }
-        System.out.println(jumlah);
     }
 }

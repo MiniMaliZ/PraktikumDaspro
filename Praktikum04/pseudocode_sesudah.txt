@@ -1,0 +1,15 @@
+Algoritma: LingkaranNoAbsen
+
+Deklarasi:
+r : int
+phi, keliling, luas : double
+
+variabel phi = 3.14
+
+Deskripsi:
+1. print “masukkan jari-jari lingkaran!”
+2. read r
+3. keliling = 2*phi*r
+4. luas = phi *r*r
+5. print keliling
+6. print luas
